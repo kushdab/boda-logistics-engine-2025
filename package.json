@@ -1,0 +1,18 @@
+{
+  "name": "boda-logistics-engine-2025",
+  "version": "1.0.0",
+  "description": "Geographic routing engine for motorcycle delivery in informal settlements",
+  "main": "dist/router.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/router.js",
+    "dev": "ts-node router.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
